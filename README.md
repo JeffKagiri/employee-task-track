@@ -73,7 +73,7 @@ employee-tasktrack-backend/
 
 ```
 PORT=5000
-MONGODB_URI=mongodb+srv://Jeff:Jeff6595@cluster0.nfko3ho.mongodb.net/employeetasktrack?retryWrites=true&w=majority&appName=Cluster0
+MONGODB_URI=mongodb+srv://Jeff:<db password>@cluster0.nfko3ho.mongodb.net/employeetasktrack?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=your_secure_random_secret
 JWT_EXPIRES_IN=7d
 ```
