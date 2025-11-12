@@ -1,0 +1,36 @@
+{
+  "name": "employee-tasktrack",
+  "version": "1.0.0",
+  "description": "Employee TaskTrack - A MERN-based task management system where employees can create, update, and manage their tasks.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MERN",
+    "task management",
+    "employee",
+    "Express",
+    "MongoDB",
+    "React",
+    "Node.js"
+  ],
+  "author": "Jeff",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.19.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
